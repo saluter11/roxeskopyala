@@ -14,10 +14,11 @@ Oyuncular `/kopyala` veya `/konum` komutunu kullanarak bulundukları koordinatla
 | Komut | Açıklama | Permission |
 |-------|-----------|------------|
 | `/kopyala` | Mevcut konumunuzu gösterir. | `kopyala.use` |
+| `/konum` | Aynı işlevi görür (alias). | `kopyala.use` |
 
 ## ⚙️ Kurulum
 1. `RoxesKopyala.dll` dosyasını `Servers/ServerName/Rocket/Plugins/` klasörüne atın.  
 2. Sunucunuzu yeniden başlatın.  
 3. Gerekirse `permissions.config.xml` dosyasına aşağıdaki izni ekleyin:
-
-<Permission>kopyala.use</Permission>
+   ```xml
+   <Permission>kopyala.use</Permission>
